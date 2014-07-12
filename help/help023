@@ -1,0 +1,56 @@
+'OGRE DRUID'
+
+This is an example of nice synergy betwen a core class and a monster. The Monster Manual gives an example of a Ogre who has four levels in Barbarian. It does not say Ogres cannot be anything else.
+
+So how does this work?
+
+Ogres have -4 INT, and -4 CHA. Notice that there is no penalty to WIS. This means that Ogres are as wise as Humans, on average.
+
+Notice also that the DMG states that NPC Monsters use the elite array: 15,14,13,12,10,8. 
+
+So what you have is a combat monster Ogre.
+
+Since the Ogre is automatically proficient with all martial weapons, the Ogre Druid can still use the Great Club. Since RAW, a Great Club is not a Club (thus shillelagh does not work), you can just use a Large Club or a Large Quarterstaff. You'd get a -2 penalty to the attack (which is trivial for a monster as strong as a Druid with potentially 15 or 14 Str base + 10 strength from race). 
+
+PS: I think it is dumb that a Great Club does not count as a Club in RAW. It breaks immersion. 
+
+With Shillelagh, it would have the damage of a Gargantuan weapon. If it has an Enlarge Person spell, it would have the damage of a colossal sized weapon. 
+
+Being a Druid, it has an damn good will save.
+
+Being Neutral Evil, it means that the Druid will be more self serving than a "Chaotic Stupid" Ogre. It would be more willing to negotiate if it has agreeable terms.
+
+Since its a Druid, you can tell what its motivations are, and its enemies. Understanding your opponents is an important player skill.
+
+Here is an example character sheet:
+
+=============================
+CR 4
+=============================
+"Mag Muk Rak the Acolyte of the Ancient Way" 
+Ogre Druid 1 (15,12,10,14,13,8->26,10,14,10,13,4)
+HD: 5d8+10
+Alignment: Neutral Evil
+HP: 36 = 8+(4.5*4)+10
+AC: 17 (18 with invisibility)
+Feats: Iron Will, Track
+Gear: Ogre Hide Armour, Shillelagh Ogre Great Club [or Large Club/Quarterstaff],
+Skills Ogre: Listen 7 [9], Spot 7 [9]
+Skills Druid: Survival 4 [6]
+To Hit: +11 (+12 with invisibility with an Invisibility Potion)
+Dam: 6d8+13
+Fort: 8, Ref: 1, Will: 6 (ogre 1, druid 2, wis 1, iron will 2)
+Spells/Day: 4/2 (prep: shillelagh, 
+Animal Companion: Eagle - http://www.d20srd.org/srd/monsters/eagle.htm
+Ogre: http://www.d20srd.org/srd/monsters/ogre.htm
+Druid: http://www.d20srd.org/srd/classes/druid.htm
+Shillelagh: http://www.d20srd.org/srd/spells/shillelagh.htm
+
+Desc - Standing at 10 feet tall, and weighing at 650 pounds, this Ogre is unlike its usual kin. Its skin is weathered, its eyes sag and show a malign intelligence. Its iris is a dull grey. Its teeth are stained with green plant matter. It has an horrid rotten smell, like that of Swamp Muck or compost heaps. He has an incredibly grumpy look about him. He wears the usual Ogre Hide Armour, and wields a large piece of solid tree bark. Yet at the same time, wrapped around its arms are brambles. Lichen and moss drape from his scraggly hair, giving its would-be grey hair a greenish-brown look. Streaks of earthen soil mark its flesh. Its clothes are wragged and torn. One notices that its muscles bulge in a more pronounced way than its ordinary kin. For his size, he seems more agile than he looks based on its body movements. This Ogre is a veteran of many battles.
+
+Role - Being a Druid, this Ogre is not interested in Marauding or careless rampages. He seeks to be one with nature. He opposes the Undead, and all things unnatural. He has a feeling of loneliness as the Ogres in his tribe are unintelligent brutes with limited (in his eyes) reverence for the wilds. Despite this, he is one of their most foremost leaders, for he is skilled in healing and divine might - thus acting as a kind of sage to them.
+
+Emotes - Mag Muk Rak nods sagely. He ponders for a great length of time in silence. He takes a deep breath. It stands there and appreciates the coolness of the air. 
+
+Actions - He will refusely destroy his enemies. He will act wise, and consider a situation before going into it. He wont plan deeply, but will use his solid common sense to deal with situations using his intuition. He instinctely understands the advantage of terrain and preparing before a fight. 
+

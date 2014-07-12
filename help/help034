@@ -1,0 +1,142 @@
+'SKILL USE'
+Complete Warrior:
+
+Architecture and Engineering: If you have a good vantage point to view an enemy stronghold, a DC 20 Knowledge (architecture and engineering) check reveals a weak aspect of the defense. For every 5 points by which your check results exceeds the DC, the DM can give you another strategy tip for assaulting the fortress. If you have an accurate map of the stronghold, you gain a +5 circumstance bonus on the check.
+
+History: With a successful DC 15 Knowledge (history) check, you know the basics of how a particular army orga- nizes itself. For example, a successful check reveals that bug- bears include a shaman in every 20-soldier platoon, or that elf generals often ride with the cavalry.
+If you’re standing on or near a historic battlefield, you can recall the details of the battle fought there with a DC 20 Knowledge (history) check. You know, for example, that the dwarves of the Brass Hills defeated the orc hordes by starting an avalanche on the hills to your left, and that most of the surviving orcs retreated into the lava tubes somewhere ahead.
+
+Local: A DC 10 Knowledge (local) check is sufficient to identify a military unit or noble’s family by its heraldry, if the unit or the family hails from the local area. A Knowledge (nobility and royalty) check is required to identify the heraldry from far-off lands.
+
+Nobility and Royalty: A Knowledge (nobility and royalty) check tells you something about the heraldry of far-off lands. A DC 25 check tells you what part of the world (down to the province or city) a heraldic design comes from. A DC 30 check tells you the name of the military unit or the noble family.
+
+Sleight of Hand: For this technique to work, you must be armed with a dagger, must have the Quick Draw feat, and must be holding nothing in your off hand. You must fight the same foe for at least 2 consecutive rounds to get your opponent used to the idea that you have nothing in your off hand. At the beginning of your turn in the third round, make a Sleight of Hand check opposed by your opponent’s Spot check. If you succeed, your foe is considered flat-footed for the next single attack you make with the dagger. Unlike other uses of the Sleight of Hand skill, it’s a free action to put the dagger in your hand because you have the Quick Draw feat.
+
+Complete Adventurer:
+
+Skill Synergy
+
+In addition to helping a character’s own skill checks, skill synergies can be used to aid the checks of allies as well. A character with 5 or more ranks in a skill that offers a bonus on another skill due to synergy can make a check using the first skill to aid the skill that would normally receive the bonus from synergy. For example, Soveliss the 2nd-level ranger could make a Handle Animal check to aid Jozan’s Ride check (using the aid another rules described above and in the Player’s Handbook), because a character with 5 ranks in Handle Animal gains a +2 bonus on Ride checks due to synergy. See Table 4–5: Skill Synergies, page 66 of the Player’s Handbook.
+
+The normal rules for aiding another still apply. For instance, even if Krusk the barbarian had 5 ranks in Handle Animal, he couldn’t use it to aid Vadania the druid’s wild empathy check, because Krusk can’t make a wild empathy check himself. Some combinations may be difficult to imagine, but the DM should allow any synergistic aid another attempt that seems reasonable. For instance, it might seem odd at first glance for Mialee to use Spellcraft to assist Lidda’s Use Magic Device check when reading a scroll—until you imagine the wizard leaning over the rogue’s shoulder, helping her sound out the tougher words.
+
+Aid Another
+
+The Player’s Handbook describes how a character can help another character achieve success by aiding him with a skill check of the same type; a successful DC 10 check by the first character grants a +2 circumstance bonus on the second character’s check to use the same skill (see pages 65–66 of the Player’s Handbook). This section expands on that rule by allowing more skilled characters to grant greater assistance.
+
+When a character with 5 or more ranks in a skill uses the aid another action to assist another character’s skill check, he can grant a higher bonus than that described in the Player’s Handbook. For every 10 points of the helper’s check result above 10, the circumstance bonus increases by 1. Thus, a result of 10–19 would grant a +2 circumstance bonus (as normal), a result of 20–29 would grant a +3 circumstance bonus, a result of 30–39 a +4 circumstance bonus, and so on. (To determine the circumstance bonus quickly, simply divide the helper’s check result by 10, round down, and add 1.)
+
+This higher bonus is available only to helpers with at least 5 ranks in the skill being used. Only experienced characters have the ability to provide the extra assistance offered by this rule.
+
+At the DM’s option, this rule can also be extended to using the aid another action in combat to improve an ally’s attack roll or AC. Any character with a base attack bonus of +5 or higher can grant a greater bonus on an ally’s attack roll or AC as described above. This rule rewards the tactic of experienced combatants helping each other in a fight (often the best option when fighting a monster with an extremely high AC or attack bonus).
+
+Individual Events
+
+Even in some cases where several characters attempt the same action, with each succeeding or failing as a result of separate checks, characters can assist one another. By offering advice, guidance, or simply leading by example, a character can effectively share some of her expertise with her comrades. However, this activity comes at a cost, since the character’s concentration is split between multiple tasks (and thus she isn’t as capable at the task as she would normally be).
+
+A character with 5 or more ranks in a skill who is engaged in a task using that skill can voluntarily accept a –4 penalty on the check in order to grant a +2 circumstance bonus on the same skill checks made by nearby allies engaged in the same task. For example, Lidda the 2nd-level rogue can help her allies sneak through a dungeon. By accepting a –4 penalty on her Hide and Move Silently checks, Lidda grants Jozan, Tordek, and Mialee each a +2 circumstance bonus on the same checks. While Lidda isn’t as quiet and hidden as she’d normally be, the group overall is more stealthy than they would be without her help.
+
+At higher levels, a character can grant more assistance, but at a greater cost. A character with 15 or more ranks in a skill can accept a –10 penalty on the check to grant a +5 circumstance bonus on the same skill checks made by nearby allies engaged in the same task.
+
+An ally must be within 30 feet of you to gain the bonus, and you must be able to see and hear each other. Using the previous example, if Lidda were invisible, she couldn’t grant the bonus to any character who couldn’t see her; if Mialee were invisible, Lidda couldn’t grant her the bonus unless she could see invisible creatures (but she could still grant the bonus to the other characters).
+
+Typically, only the following skills can be assisted in this manner: Balance, Bluff, Climb, Craft, Diplomacy, Escape Artist, Handle Animal, Hide, Move Silently, Ride, Search, Survival, and Swim. In special circumstances, the DM may rule that other skills can benefit from this assistance, or that characters can’t benefit from this form of assistance even when using the skills described above.
+
+Appraise: 
+
+Whether performing a daring burglary or a hasty act of espionage, adventurers don’t always have time to carefully study the value of potential loot. Characters can use the Appraise skill to make a quick but rough estimation of an item’s value.
+Check: You can appraise an item quickly, but the DC is higher. Failing the check means that you cannot estimate the item’s value.
+
+Item (Examples)
+
+Common DC 15 
+* Trade goods (spices, food stuffs, raw materials, etc.), mundane items, livestock Rare
+
+Rare DC 20
+* Fine clothing, precious metals (unworked), gems, artwork
+
+Exotic 25
+* Unusual gems (strange colorings, unusual to the region, unusually large or pure), spell components, jewelry, obscure religious items
+
+Unique 30+ 
+Masterpiece artwork, royal jewels, crowns, or other adornments
+
+Action: Appraising an item quickly takes 1 round.
+
+Try Again: You can try to appraise an item normally (requires 1 minute), but you cannot try to appraise the item quickly again. You can try to appraise an item nor- mally whether or not you successfully appraise the item quickly.
+
+Special: The Appraise Magic Value feat enables you to use the Appraise skill to determine a magic item’s properties; see the feat description on page 103.
+
+Balance: 
+
+You can run across narrow surfaces or resist being tripped.
+
+Resist Trip: If you have 10 or more ranks in Balance, you can make a Balance check in place of a Strength or Dexterity check to avoid being tripped by an opponent. You take a –10 penalty on your Balance check. If you succeed on this check, you are not tripped. When you succeed on a Balance check to resist being tripped, you may not attempt to trip your opponent.
+
+Sprinting Balance: You can try to run across a narrow surface by accepting a –20 penalty on your Balance check.
+
+Climb:
+
+Skilled climbers can climb much more quickly than others or even fight effectively while climbing. The rapid climb option first appeared in the Epic Level Handbook, but the following uses of Climb are open to characters of any level provided that they are willing to accept the appropriate penalty.
+
+Rapid Climb: You can climb more quickly than normal. By accepting a –20 penalty on your Climb check, you can move your speed (instead of one-quarter your speed).
+
+Combat Climb: You can move freely enough to avoid blows while climbing. By accepting a –20 penalty on your Climb check, you can retain your Dexterity bonus to AC while climbing.
+
+Craft:
+
+By voluntarily raising the difficulty of the task before you, you can craft items more quickly than normal. This option first appeared in the Epic Level Handbook, but this use of the Craft skill is open to characters of any level provided that they are willing to accept the appropriate penalty.
+
+Quick Creation: +10 or more to DC
+
+Quick Creation: You can voluntarily increase the DC of crafting an item by any multiple of 10. This tactic allows you to create an item more quickly (since you’ll be multiplying this higher DC by your check result to determine progress). You must decide the increase before you make the check.
+
+Craft (Poisonmaking): The fine art of refining raw materials into effective poisons requires both patience and care (not to mention discretion, in areas where poisons are outlawed). Making poisons with the Craft (poisonmaking) skill follows the rules in the Player’s Handbook for all Craft skills, with the following exceptions.
+
+Price: The cost of raw materials varies widely depend- ing on whether the character has access to the active ingredient—that is, the venom or plant that actually provides the toxin. If a supply is readily available, the raw materials cost one-sixth of the market price, not one-third. Otherwise, the raw materials cost at least three-quarters of the market price—assuming the substance in question is for sale at all.
+
+Amount: To figure out how much poison you are able to create in a week, make a Craft (poisonmaking) check at the end of the week. If the check is successful, multiply the check result by the DC for the check. That result is how many gp worth of poison you created that week. When your total gp created equals or exceeds the market price of one dose of the poison, that dose is finished. (You may sometimes be able to create more than one dose in a week, depending on your check result and the market price of the poison.) If you fail the check by 4 or less, you make no progress that week. If you fail the check by 5 or more, you ruin half the raw materials and have to buy them again.
+
+Decipher Script:
+
+You can use the Decipher Script skill to create a private cipher. This code system allows you (or anyone with the proper key) to record information without the risk of others reading it. Any document you create using your private cipher can be read only by you or someone who has the proper decoding information. Other characters with ranks in the Decipher Script skill can attempt to decipher the code. The DC for such a decoding attempt is 10 + your total skill modifier at the time that you create the cipher. (In effect, you “take 10” on a skill check to create the cipher, and those attempting to decode it make a Decipher Script check opposed by your take 10 result.)
+
+Action: Creating a cipher takes a week of uninter- rupted work. The first attempt to decipher a code system created by the Decipher Script skill requires a day of uninterrupted work, and subsequent retries each take a week’s time.
+
+Try Again: You can attempt to decipher a private cipher more than once, but you must spend a great deal of time on each retry attempt. Each attempt to decipher a code beyond your first attempt takes a week’s worth of uninterrupted work. The first attempt to decipher a code system requires only one day’s work.
+
+You can haggle over prices with a merchant or mediate between disagreeing groups, finding a solution to a diplomatic or legal matter that is satisfactory to everyone regardless of background.
+
+Haggle: You can use the Diplomacy skill to bargain for goods or services, including those of a magical nature.
+
+When discussing the sale of an item or service, you can attempt to lower the asking price with a Diplomacy check made to influence NPC attitudes (see the sidebar on page 72 of the Player’s Handbook). If you manage to adjust the vendor’s attitude to helpful (most vendors begin as indif- ferent), the vendor lowers the asking price by 10%. Add the vendor’s Diplomacy check modifier to the DC needed to achieve the result. For example, to adjust the attitude of an indifferent vendor with a Diplomacy modifier of +3 to friendly, you must achieve a result of 33 or higher on your Diplomacy check (a base chance of 30, +3 for target’s Diplomacy modifier). If you worsen the vendor’s attitude, the vendor refuses to sell anything to you at this time. The DM is the final arbiter of any sale of goods and should discourage abuse of this option if it is slowing the game down too much.
+
+Action: Haggling requires at least 1 full minute, as normal for a Diplomacy check.
+
+Try Again: You can’t retry a Diplomacy check to haggle.
+
+Mediate: In order to mediate a disagreement, you must succeed in adjusting each group’s attitude to friendly or better toward the other party in the negotiation. Make a Diplomacy check as normal for influencing NPC attitudes, but add the group leader’s Diplomacy check modifier to the DC needed to achieve the result. For example, to adjust the attitude of an unfriendly group led by an individual with a Diplomacy modifier of +7 to friendly, you would need to roll a result of 32 or higher on your Diplomacy check (a base chance of 25, +7 for target’s Diplo- macymodifier).Ifyourcheckresultis less than 12 (a base chance of less than 5, +7 for target’s Diplomacy modifier), the target’s attitude worsens to hostile. The DC increases by 5 if the two parties are of different cultures or races.
+
+Action: Mediation is a long process and cannot often be rushed successfully. Each check requires a full day of game time. You can take a –10 penalty on the check if you wish to attempt a mediation in an hour instead of a day (such as staving off an impending battle).
+
+Try Again: As long as both sides aren’t hostile (that is, as long as at least one side remains unfriendly or better), you can retry a Diplomacy check made to mediate a disagreement. If both parties become hostile at any time after the first check is made, you can’t retry the check.
+
+Disable Device
+
+You can reduce the amount of time it takes to disable a device or add a bypass element to an existing trap.
+
+Bypass Trap: You try to incorporate a bypass element enabling you to avoid a trap’s effects if you encounter it again later. Doing this imposes a –10 penalty on your Disable Device check. If you succeed, you can not only bypass a trap without disarming it (just as if you had beat the trap’s DC by 10 or more—see page 72 of the Player’s Handbook) but also add a bypass element allowing you or your companions to avoid triggering the trap again later. For example, you could insert a wedge that blocks the gears of a mechanical trap, or pick out a narrow path between the pressure plates that trigger poison darts from the wall.
+
+Quick Disable: You can try to disable a device more quickly than normal. To reduce the time required to disable any device to a full-round action, add +20 to the DC. For example, a trap that normally requires a DC 20 check and 2d4 rounds to disarm could be disabled in 1 round with a successful DC 40 check.
+
+Escape Artist:
+
+You can slip out of confining spell effects, bonds, or grapples much more quickly than normal, but you must voluntarily accept a penalty on your skill check.
+Quick Escape: Making a quick Escape Artist check increases the required DC by 10. Escaping from rope bindings, manacles, or other restraints (except a grappler) takes only 5 rounds of work. Escaping from a net or an animate rope, command plants, control plants, or entangle spell with the quick escape option is a standard action. Escaping from a grapple or pin with the quick escape option is a move action. Squeezing through a tight space takes half the time that it normally would (DM’s discretion, at least 5 rounds).
+
+Forgery:
+
+Official documents can provide an excellent means of proving yourself and reinforcing your point. With properly forged documents—created with a normal use of the Forgery skill and opposed by the viewer’s Forgery check (or an Intelligence check for those without ranks in Forgery)—you can gain special bonuses to certain skills due to synergy.
+
+At the DM’s discretion, you can forge documents that grant a +2 circumstance bonus on a specific Bluff, Diplomacy, or Intimidate check. These false credentials become, in effect, the perfect tool for the job and provide a bonus much like the bonuses provided to other skills by masterwork tools. Unlike other bonuses, these apply only when you present the documents and the creature you are interacting with does not detect the forgery. If you present forged documents and they are detected as a forgery, the check you were attempting to use the documents for automatically fails. The DM is also free to rule that there are other repercussions in such situations.
+

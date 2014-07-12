@@ -1,0 +1,44 @@
+'ROGUELIKE CONVENTIONS'
+
+# represents walls (colours affect materials)
+. represents space (red means blood on floor)
+@ represents the player
+? represents scrolls
+( represents ammunition
+< represents staircase up
+> represents staircase down (blue means out of dungeon, white means stone[2way], escapeshutes in brown [1way], 3 staircases on every level of the main dungeon, green navigated already)
+g represents goblin types, colour represents type, background represents state (sleeping, etc)
+[ represents armour
+$ represents money
+% represents food
+b represents bat (grey = standard, red = hostile)
+darker message = represents hit, lighter represents miss
+dark red represents kill
+% represents corpses (as well as food [since for most characters its the same as food])
+" represents an amulet (grey = unidentified)
+8 represents statues
+! represents a potion
+^ represents trap (cyan for dart)
+; represents watery monsters
+
+skills are represented as percentiles
+a choice between focusing on one skill over many skills. no such choice in D&D
+
+permanent food
+non-permanent food
+
+courier new = old fashioned (bad on HD and on a mobile device)
+
+Overworld
+^ represents mountains
+& represents forests
+
+Settlement
+t represents town people (colour represents kind)
+# represents wall
+. represents a floor tile (green represents grass)
+@ represents class (blue = wizard, green = druid, brown = barbarian)
+T represents tree
+= blue represents water
++ represents closed door
+/ represents open door

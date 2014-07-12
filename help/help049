@@ -1,0 +1,26 @@
+'COMPLEXITY'
+
+Task Environment: An area of play, like a sandbox.
+
+Observable: If you can see everything in the environment is that is relevant to decision making, then it is fully observable.
+
+Agents: An agent is a person, group. There are either single agents or multi agents. They are either cooperative or competitive. Then there is small number of agents or large number of agents. Also, each agent's intelligence determines how complex it is.
+
+Deterministic: Does the environment's new state completely depend on the current state and the action executed by an agent? If so, it is deterministic. If it is impossible to keep track of all unobserved aspects, then it is stochastic - which simply means it is random. For instance, the sheer number of daily events in a city would make it so that it is impossible to keep track of, and merchant wealth changes. In this way, a good way to handle a city would be via random generation.
+
+Episodic: Episodes have no or limited affect on the next episode. In a sequential, the current decision could affect all future decisions. So picking your class could be sequential. Falling into a pit trap with no lasting consequences can be described as episodic.
+
+Static: If the environment can change while your are deliberating, then it is dynamic. Else it is static. Many D&D Games are very static in practise. If the environment does not change, but the agents performance score does change with respect to time, then we can say it is semidynamic. Food/Water resource management makes it semidynamic.
+
+Discrete: This relates to how time is measured. Is time described in turns? or some continuous flow?
+
+Known: This refers to the agents knowledge of his environment. If he understands the "laws of physics", or game mechanics behind the scenes by the GM, then it is known. Obviously if the environment is unknown, the agent will have to learn how the environment works. For instance, if an environment has wandering monsters, how does it apply in this environment? That would be one way of seeing it.
+
+Task environment 		Observability 			Agents 			Deterministic?		Episodic 		Static 		Discrete? 	Known
+================================================================================================================================================================================
+Small Dungeon 			Partial 			Single 			Deterministic 		Maybe Episodic 		Undetermined 	Discrete 	Maybe Unknown
+Megacity 			Partially/Unknown 		Multi-agent 		Stochastic 		Undetermined 		Dynamic 	Continuous 	Maybe Unknown
+Lair 				Maybe fully observable 		Undetermined 		Maybe Deterministic 	Undetermined 		Maybe Static 	Discrete 	Maybe Known
+
+
+Further information, see 

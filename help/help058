@@ -1,0 +1,74 @@
+'BYPASSING DOORS'
+Open Locks
+	Taking 20
+		- You are faced with no threats or distractions
+		- Generally takes 2 minutes, or longer
+		- Carries no penalties for failure
+		- Lv 1 Rogue“Take 20”-> DC 25 (average lock). Stopped by a Good Lock or better. (ranks 4, dex 4)
+			- With aid another, two people can do it at Lv 1. Thus takes people a lot of time. But this needs someone with at least one rank in open lock as well, per Aid Another rules.
+		- Lv 2 Rogue “Take 20” -> DC 30 (good lock). Can defeat good lock with Thieves Tools (or if an Elf Rogue).
+		- Amazing Lock (DC 40), take 20 (2 tools, 4 dex, 14 ranks), or (2 tools, 6 dex, 12 ranks).
+			- So level 9-11 Rogue.
+			- Amazing Lock costs 150gp, Good Lock costs 80gp.
+
+Doors
+	Simple Wooden
+		- Hardness 5, HP 10
+		- Thus, a Greatsword + Power Attack + STR 18 (2d6+8) [10-20] could bust down this door in a single round
+		- Most everyone else takes longer
+		- 
+	Good Wooden
+		- Hardness 5, HP 15
+		- Thus, a Greatsword + Power Attack + STR 18 (2d6+8) [10-20] could only bust down this door if he rolled max damage or crit. Probably would take 2 rounds
+	Strong Wooden
+		- Hardness 5, HP 20
+		- Nobody is going to bust it down in one round at low levels.
+			- If its ganged on, they weaken their action economy.
+
+	Stone
+		- Hardness 8, HP 60
+		- It would be hard for anyone except a Frenzied Berserker to smash down this kind of door until maybe Level 10
+		- Stone to Mud spell
+		- Green Slime does not harm stone!
+	Iron
+		- Hardness 10, HP 60.
+		- Same conclusion as Stone
+		- Except that you can use Rust on Iron
+		- Green Slime ignores its hardness!
+	Portcullis, Wooden
+		- Hardness 5, HP 30
+		- A very nice defensive system for organised defenders
+		- Lifting is a DC 25 strength check. So pretty much a Lv1 Fighter cant do it unless he has a racial mod to str (Half-Orc or Barbarian) while Taking 20. 
+	Portcullis, Metal 
+		- Hardness 10, HP 60
+		- Damn good vs most parties until level 10+
+			- Unless they invest in adamantine weapon
+
+
+A good wooden door can be bust down in a single hit by maybe a Half Orc, perhaps with abit of levels so the power attack hits harder, and whenever +1 Weapon is gained.
+
+A Strong Wooden door is pretty safe from this.
+
+* Dungeon doors are often locked, and thus the Open Lock skill comes in very handy.
+
+* Locks are usually built into the door, either on the edge opposite the hinges or right in the middle of the door. 
+* * Builtin locks either control an iron bar that juts out of the door and into the wall of its frame, or else a sliding iron bar or heavy wooden bar that rests behind the entire door. 
+* * By contrast, padlocks are not built-in but usually run through two rings, one on the door and the other on the wall. 
+* * More complex locks, such as combination locks and puzzle locks, are usually built into the door itself. Because such keyless locks are larger and more complex, they are typically only found in sturdy doors (strong wooden, stone, or iron doors).
+
+* A door can have more than one lock, each of which must be unlocked separately.
+
+
+ * Most doors have hinges. Obviously, sliding doors do not. (They usually have tracks or grooves instead, allowing them to slide easily to one side.)
+
+Standard Hinges
+
+These hinges are metal, joining one edge of the door to the doorframe or wall. Remember that the door swings open toward the side with the hinges. (So, if the hinges are on the PCs’ side, the door opens toward them; otherwise it opens away from them.) Adventurers can take the hinges apart one at a time with successful Disable Device checks (assuming the hinges are on their side of the door, of course). Such a task has a DC of 20 because most hinges are rusted or stuck. Breaking a hinge is difficult. Most have hardness 10 and 30 hit points. The break DC for a hinge is the same as for breaking down the door.
+
+Nested Hinges
+
+These hinges are much more complex than ordinary hinges, and are found only in areas of excellent construction. These hinges are built into the wall and allow the door to swing open in either direction. PCs can’t get at the hinges to fool with them unless they break through the doorframe or wall. Nested hinges are typically found on stone doors but sometimes on wooden or iron doors as well.
+
+Pivots
+
+Pivots aren’t really hinges at all, but simple knobs jutting from the top and bottom of the door that fit into holes in the doorframe, allowing the door to spin. The advantages of pivots is that they can’t be dismantled like hinges and they’re simple to make. The disadvantage is that since the door pivots on its center of gravity (typically in the middle), nothing larger than half the door’s width can fit through. Doors with pivots are usually stone and are often quite wide to overcome this disadvantage. Another solution is to place the pivot toward one side and have the door be thicker at that end and thinner toward the other end so that it opens more like a normal door. Secret doors in walls often turn on pivots, since the lack of hinges makes it easier to hide the door’s presence. Pivots also allow objects such as bookcases to be used as secret doors. 

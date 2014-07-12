@@ -1,0 +1,65 @@
+'TABLES'
+
+==========================================
+NPC Wealth by Level
+==========================================
+Level
+1		900
+2 		2000
+3 		2500
+4		3300
+5 		4300
+6 		5600
+
+==========================================
+Treasure by Encounter
+==========================================
+1		300
+2		600
+3 		900
+4		1200
+5 		1600
+6 		2000
+
+==========================================
+Preps			(gp)
+==========================================
+Invisibility 		300
+Aid			300
+Shield of Faith +2 	50
+Prot Alignment 		50
+Enlarge Person 		250
+Cure Light Wounds 	50
+Cure Mod. Wounds 	200
+Blur 			300
+
+==========================================
+Magic Item Compendium Balance
+==========================================
+Lv	MPR (gp)	Sample
+1/2	1-50		1st Level Pot
+1 	51-150		Light Warhorse
+2 	151-400		2nd Level Pot
+3	401-800		3rd Level Pot
+4	801-1300	+1 Armour
+5	1301-1800	Full Plate
+6	1801-2300	+1 Weapon
+7	2301-3000	Bag of Holding
+8	3001-4000	+2 Armour
+9	4001-5000	2nd Level Wand
+10	5000-6500	
+
+=============================
+Feat Combos
+=============================
+Feats
+Whirlwind Attack+Reach Weapon+Enlarge Person+Lunge 				
+Reach Weapon+Greater Trip 		
+Dirty Trick+Punched in the...prick makes 'em sick 
+Greater Reposition a foe+Flanking w/rogue
+Spiked Chain, Combat Reflexes, Improved Trip, Combat Expertise
+Combat Expertise, Fighting Defensively (AC+??)
+Two Weapon Fighting, Gang
+Dungeon crashing Fighter 2 + Warblade 1 Charging Minotaur 6d6+3xStr on a successful bullrush.
+Endurance + Steadfast Determination
+Martial Study (Ironheart Aura) + Stormguard Warrior

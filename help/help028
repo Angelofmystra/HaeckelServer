@@ -1,0 +1,41 @@
+'ITEM AVAILABILITY'
+
+GP Limit: The highest value of any individual item that they will sell
+
+		Adult pop	GP Limit	Example Items
+Thorp		20-80 		40 			
+Hamlet 		81-400 		100 		Scalemail, Chainshirt, Light Horse, War Pony, 
+Village 	401-900 	200 		Splint Mail, Breastplate, Chainmail, Masterwork Scalemail, 
+Small Town 	901-2000 	800 		Half Plate, Masterwork Half Plate, Banded Mail, Heavy Warhorse, 
+Large Town 	2001-5000	3000 		Full Plate, Cloak of Resistance +1, 
+Small City 	5001-12000	15000 		Cloak of Resistance +2/+3, Boccob's Blessed Book, Adamantine Weapon, Mithril Medium/Heavy Armor
+Large City 	12001-25000	40000 		Cloak of Resistance +4/+5, Magic Weapon +4, Adamantine Heavy Armour, 
+Metropolis 	25001+ 		100000 		Magic Weapon +5
+
+The following items cannot be bought:
+
+79 	Manual of bodily health +4 				110,000 gp
+80 	Manual of gainful exercise +4 				110,000 gp
+81 	Manual of quickness of action +4 			110,000 gp
+82 	Tome of clear thought +4 				110,000 gp
+83 	Tome of leadership and influence +4 			110,000 gp
+84 	Tome of understanding +4 				110,000 gp
+85 	Amulet of the planes 					120,000 gp
+86 	Robe of eyes 						120,000 gp
+87 	Helm of brilliance 					125,000 gp
+88 	Manual of bodily health +5 				137,500 gp
+89 	Manual of gainful exercise +5 				137,500 gp
+90 	Manual of quickness of action +5 			137,500 gp
+91 	Tome of clear thought +5 				137,500 gp
+92 	Tome of leadership and influence +5 			137,500 gp
+93 	Tome of understanding +5 				137,500 gp
+94 	Efreeti bottle 						145,000 gp
+95 	Amulet of mighty fists +5 				150,000 gp
+96 	Chaos diamond 						160,000 gp
+97 	Cubic gate 						164,000 gp
+98 	Iron flask 						170,000 gp
+99 	Mirror of mental prowess 				175,000 gp
+100 	Mirror of life trapping 				200,000 gp
+
+
+For more information check DMG P.137

@@ -1,0 +1,73 @@
+'EXPEDITIONS'
+
+Basic Questions
+
+*	How far is the target location?
+*	Do you know any local guides? Is there a key benefit to asking a local guide?
+*	Do we know of any threats enroute?
+*	Do we know of any threats at the location?
+*	Are there any weather considerations?
+*	How could we carry the loot back?
+*	How much supplies do we have and need?
+*	Are there any local sources of food and water en route or at the location? Any known poisonous plants or tainted water?
+
+Travel Logistics
+
+*	I will assume at least one character is in armour. Thus 16 miles per day.
+*	By Horse, that is roughly 32 miles per day.
+*	If its trackless in forest, swamp, hills, then double the time. So 2 days by horse, 4 days by foot (in armour).
+*	Trackless in plains? 1 and a half days by horse. 3 days by foot.
+*	This creates easy numbers to plan for
+
+Food & Water
+
+*	Each day a character will need one trail rations. Since it takes day to reach the destination, and 1 day to return, that is a minimum of 2 rations. 
+*	So we need to know how many days the party will spend at the adventure site
+
+Example:
+
+6am
+	Players are at the settlement.
+	For each day they spend there:
+		- random encounters)
+		- upkeep costs)
+		- antagonist / competitor actions
+		+ shopping
+		+ recruiting henchment/followers
+		+ investigation (gathering information, etc)
+
+NB: Shopping in-game has the advantage that the players can investigate and then buy items appropriate to what they will face. The disadvantage is that there is a markup price to off-set this advantage.
+
+Since 'gather information' skill takes 1d4+1 hours, the new time is (at minimum)
+
+8am - 11am
+
+Any further wasted time should be noted. Leave Time: This is the time the party leaves the settlement.
+
+For simplicity, lets say Sun Set = 1830
+
+Hours Till Nightfall = Nightfall Time - Leave Time
+
+Party Traveling Speed = Speed of the slowest member
+
+Distance Traveled = Hours Till Nightfall * Party Traveling Speed
+
+In this basic scenario, this means there are 5 variations to the camping spot.
+
+NB: Random encounters may force the spellcaster to use their spells. Remember Recent Casting Limits / Rest Interruptions, P.178 PHB
+
+NB: Each interruption adds an hour to the time required for the caster to rest
+
+NB: Spell Preparation Time: To prepare all spells, this can take an hour
+
+NB: Preparation Environment: You cant prepare in swamps! They are neither peaceful, quiet, or comfortable to allow for proper concentration!
+
+NB: Dark Cursed Forests prevent preparation unless you have a torch. You need sufficient light! If a forest is magically blanketed in darkness, then this is even harder!
+
+Unhindered Travel Start Time = Sun Set + 0800 - 2400
+
+Unhindered Start Time = 1830 + 0800 - 2400
+
+Unhindered Start Time = 0230
+
+Sun Rise = 0700

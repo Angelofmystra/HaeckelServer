@@ -1,0 +1,42 @@
+'CITIES'
+
+City 			Realms			Size 
+============================================================
+Ablon 			Ablon			Metropolis 		
+Mont Lunae 		Ablon 			Small City 	
+		
+Blutport 		Ubris Furor 		Small City
+Ubar City 		Ubris Furor 		Small City
+Ganzorig		Ubris Furor 		Small City
+Tesifon 		Ubris Furor 		Small City				
+Alea 			Ubris Furor 		Small City
+
+Nova Gaard 		North Midgaard 		Small City
+Gaard 			North Midgaard 		Small City
+Yewfalls 		North Midgaard 		Small City
+
+Yares 			South Midgaard 		Large City
+Arkford 		South Midgaard 		Small City
+
+Holgerholm 	 	Nes 			Small City
+
+Maldol 			Brouliard		Large City 		
+Malden 			Brouliard 		Large City
+Redbrick 		Brouliard 		Small City
+Paradis 		Brouliard 		Small City
+
+Herakleopolis Magna 	Abyssimiar 		Large City
+Taposiris Magna 	Abyssimiar 		Large City
+Memphis Magna 		Abyssimiar 		Large City
+Medina Magna 		Abyssimiar 		Large City
+Abydos 			Abyssimiar 		Large City
+Acanthus Minor		Abyssimair 		Small City
+Waset Thebes Minor	Abyssimair 		Small City
+Thonis Minor		Abyssimair 		Small City
+Buhen Minor		Abyssimair 		Small City
+Crocodilopolis		Abyssimair 		Small City
+Heliopolis Minor	Abyssimair 		Small City
+
+The realms of Avalonia, Grul, Nosquam and North Wall lack Cities.
+
+For related information, see 'ITEM AVAILABILITY', 'ROADS', 'RIVERS'

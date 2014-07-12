@@ -1,0 +1,24 @@
+'CURSED ITEMS'
+
+A simple detect magic spell yields a misleading aura and strength, often indicating that the item is a noncursed item of similar sort. 
+
+An identify spell only has a 1% chance per caster level to reveal a cursed item’s true properties, including the cursed aspect. 
+
+* The casting time is 1 hour
+* It has a material component cost: A pearl of at least 100 gp value, crushed and stirred into wine with an owl feather; the infusion must be drunk prior to spellcasting.
+* * A consequence of this is that spells such as Shatter will prevent a party from using Identify.
+* You must touch the item. This may have consequences.
+* Intelligent items do not get a chance to resist the Identify spell - making it more powerful (in a specific certain sense) than Analyze Dweomer. Thus it is useful later on.
+* Identify is a level 1 Bard/Wizard spell, as well as a level 2 Magic Domain spell. 
+* * A consequence of this is that most Clergys may require independent Arcane services.
+* * It also provides an alternative source of identify for astute players who know the religion.
+
+Analyze dweomer reveals the true nature of a cursed item.
+
+* This is a Bard or Wizard 6th level spell
+* The casting time is 1 standard action
+* It has a focus - A tiny lens of ruby or sapphire set in a small golden loop. The gemstone must be worth at least 1,500 gp. 
+* Analyze dweomer does not function when used on an artifact.
+* Intelligent items may resist an Analyze Dweomer spell.
+* * It allows the caster to reveal a potentially large number of items; thus it is vastly more time efficient compared to Identify. You make a strategic choice between spell slot and time.
+

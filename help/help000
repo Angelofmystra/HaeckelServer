@@ -1,0 +1,10 @@
+'HELPFILE WRITING GUIDELINES' 
+
+The following article discusses help files. 
+
+All changes to the help files are automatically catalogued and recorded using the Version Control System.
+
+The first line of every help file must include the search terms to find it, written in single quotations. They should be written in full capital letters.
+
+Any related articles should be described as such near the end: "For more guidance, see help on FIGHTERS or FIGHTER GAMEPLAY"
+

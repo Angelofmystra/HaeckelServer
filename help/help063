@@ -1,0 +1,71 @@
+'VISION WARS'
+
+Important! Remember door placement. Placing a door in the center of a wall would mean that a room provides a different vision landscape to a door placed in a corner, or one placed at an awkward angle designed to obscure vision, such as:
+
+   ###+#####
+   #.......#
+#/##..*....##
+#..#........## 
+#.........*..#
+###..*......##
+  ###########
+
+Low Light Vision
+
+*	Elves with Torches see to a radius of 40ft for bright light, and 80ft for shadowy illumination
+* 	Thus rooms can be planned to take advantage of an Elves normally excellent vision
+*	*	An example would be cover, such as a thick pillar, placed such that it obscures specific areas of vision that from the door would most likely affect Elves
+*	* 	Another example would be a Room with the dimensions of 85ft+
+
+
+Human Vision
+
+*	This kind of challenge rewards parties for having Low Light Vision
+*	A Human with a Torch can see 20ft of bright light, and 40ft of shadowy illumination.
+*	*	Therefore, a Room with 65ft to 80ft width, would mean that there is an area of blackness at the corners of view (which only Elves would see)
+
+Interesting situations
+*	Windy Tunnels
+*	Perilous cliff faces
+*	Jammed door - sudden change of air pressure creates a draft of wind
+*	Flooded tunnels, underground lakes, waterfall from the above floor
+*	Forcing everyone to be engaged in melee, causing the torch to drop and be wasted
+* 	Areas with a smell of flammable gas
+*	A 4-way intersection of massive corridors (read: like a highway), so being there with light would reveal their position to the entire dungeon
+*	Make colour extremely important (especially to see dangers). So the party must rely on close range "bright vision" to see certain problems
+*	Strange insects (moths) start circling the light source, fluttering about in a spiral path
+
+Time Problematic Obstacles
+-	Torches last for one hour, so certain obstacles can impose a torch tax
+* 	Clearing rubble
+*	Mazes
+*	
+
+Notes
+*	Non-torch bearers who stick their head around a corner should not see jack shit
+* 	Make sure descriptions in the concealment are indistinct
+* 	Doors of poor quality, with a junky look, allow light to shine through. Even the slightest crack will signal monsters behind
+
+################################
+#......*...*......*....*....PPP#
+#..*..........*..............PP#
+#......*...*......*...*........#
+#..*...........................#
+#..*..*.......*...*..*.........#
+#..........*...................#
+#..*..*..*....*...*...*........#
+#..............................#
+##++#####S## ##++## ##S####+++## 
+       #...###....###...#
+       #.O..............#
+       #...###....###..P#
+       ##### ##++## #####
+
+P denotes a pool of water
+* denotes a 5ft pillar
++ denotes a closed door
+S denotes a secret door
+/ denotes an open door
+. denotes a floor tile
+# denotes a wall
+

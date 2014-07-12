@@ -1,0 +1,22 @@
+'PRAYING'
+
+*	Prayer Timeout
+*	*	You may pray once per 4 hours of IRL Time. This usually means once per session.
+*	A number of things will cause your pray attempt to automatically fail:
+*	*	Your alignment record is negative
+*	*	You are polymorphed into a demon or undead and are attempting to pray to a non-chaotic deity
+*	*	Your deity is still angry at you from some other event, such as:
+*	*	The land you are in is consecrated or desecrated
+*	*	*	The dark underworld of Haeckel
+*	* 	*	Temples of opposed alignment
+*	*	*	Cursed forests
+*	*	*	Areas of immense evil and tragedy, unless you worship an Evil sphere deity
+*	*	*	Volcanos, unless you worship a Fire sphere deity
+*	*	*	In the presence of those with an overwhelming aura of opposed alignment
+*	Praying at an altar not of your deity will anger your deity (but will still work as normal)
+*	Praying where there is no altar will succeed on a 1-2 on a d6
+*	Praying at an altar will succeed on a 1-4 on a d6
+*	Praying at an altar of an opposed alignment is an act of blasphemy and will make you a heretic of your existing deity
+*	Dropping water on an altar and praying will turn it into holy or unholy water, depending on the altar's alignment
+*	High Altars cannot be converted. They are directly protected by their respective Deity
+*	To convert an Altar, you must either consecrate or desecrate it

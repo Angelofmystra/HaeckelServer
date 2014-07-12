@@ -1,0 +1,12 @@
+'ERRORS'
+
+OperationalError, no_such_column
+
+Solution: 
+
+1) python manage.py sqlclear app_name
+2) python manage.py dbshell
+3) DROP TABLE appname_modelname;
+4) .exit
+5) python manage.py syncdb
+

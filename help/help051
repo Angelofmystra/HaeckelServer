@@ -1,0 +1,118 @@
+Chapter: Object Database
+
+Normalisation: is the process of eliminating redundancy in a database. This reduces data anomalies as well as making OLTP updates by allowing higher concurrency. 
+
+Composite Primary Key: You can only have partial functional dependencies if you have a composite primary key, that is a primary key composed of more than one column/attribute.
+
+Pre 1NF
+
+// Messy Table
+
+Areas 	(name, terrain, author, starting_level, end_level, lore)
+Rooms	(name, terrain, description, dv_description, night_description, mobs, traits, obs, lore, north, south, east, west, up, down, desc_north, desc_east, desc_south, desc_west, desc_up, desc_down)
+Characters (name, ipAddress, current_locale, description, myth weaver, responsibility, imm_notes)
+Factions (name, alignment_restrictions, cabal_leader, favoured_classes, entry_requirements, social_experience, join_rewards, lore)
+Items	(name, type, weight, description, mythweaver, item_traits, design_note, copper, craftsmanship, slot)
+Mobs 	(name, type, age, description, mythweaver, traits, design_note, copper, summary_desc, track, aggro, remember, initial_attitude, alignment, level, emote)
+Spells 	(name, cthulhu_speak, material_components, url, casting_description, verbal, somatic, focus, divineFocus, duration, spell_level, xpCost)
+Achievements	(name, prerequisites, restrictions, description, mechanics, design)
+
+1NF
+
+No repeating groups. An array of data. In the past db sys allowed a single field to have a complex array of data. This violates this aspect of 1NF. A fake array could be “nut,bolt,screw”, that the SQL Server is not structurally aware of. You’ll need to find it on your own.
+Every row should be unique. Easily done by setting a Primary Key (atomic)
+
+2NF
+
+No partial key dependencies. Attributes must be dependent on the key.
+Another principle of 2NF is “No Derived Data” or calculated fields, such as a “Total” field when you already have prince and quantity stored.
+
+3NF
+
+Attributes must depend solely on the key.
+Removes transitive dependencies. Things that don’t belong together should be broken apart.
+
+Development
+
+! denotes possible Repeating Group
+* denotes Transitive Dependencies
+?? denotes Unknown Potential Problem
+underline denotes a primary key
+
+Areas (name, author, startingLevel, endLevel, geography, history, arcana, local, rooms*)
+Rooms (id, name, terrain!, description, mobs*, area*, items*, characters*, north, south, east, west, up, down)
+Character (name, ipAddress, port, room??, url, description, title, gear!, alignment, class, health, ac, fort, ref, will, faction*)
+Factions (name, alignment_restrictions, cabal_leader??, favoured_classes, entry_requirements, social_experience, join_rewards, lore, characters!)
+Mobs 	(name, type, age, description, url, traits, design_note, copper, summary_desc, track, aggro, remember, initial_attitude, alignment, level, emote, room*)
+
+NB 1: Technically ac, health, fort, ref, and will are derived data. But I am not storing the relationships between the derivatives, so it is fine.
+NB 2: Not sure how to store room to room mappings.
+NB 3: Not sure what situation the room attribute in character has with Rooms. I am guessing that there is no problem, its just a Foreign Key in the Character Table.
+NB 4: I have chosen to use an id in the Rooms Table to be the unique PK because there can be many rooms with the same name. This facilitates the exploration gameplay of the MUD.
+
+Areas (name, author, startingLevel, endLevel, geography, history, arcana, local, rooms*)
+Rooms (id, name, terrain!, description, mobs*, area*, items*, characters*, north, south, east, west, up, down)
+AreaRoom ((area,room))
+Character (name, ipAddress, port, room, url, description, gear!, alignment, class, health, ac, fort, ref, will, faction*)
+CharacterRoom ((character,room))
+Factions (name, alignment_restrictions, cabalLeader??, favouredClasses, entryRequirements, socialExperience, joinRewards, lore, characters!)
+CharacterFaction ((character,faction))
+Mobs 	(name, type, age, description, url, traits, design_note, copper, summaryDesc, track, aggro, remember, initialAttitude, alignment, level, emote, room*)
+MobRoom ((mob,room))
+Spells (name, school, subSchool, descriptor, level??, verbal, somatic, material??, focus, divineFocus, xpCost, materialCost, castingTime, range, aim, duration, savingThrow, spellResistance, mechanicalEffect, url, castingDescription)
+
+NB: Not sure if the CharacterFaction Table should have “rank”, such as Cabal Leader
+NB: Not sure if the validation for alignment vs alignment_restrictions is handled by the database
+NB: Due to MobRoom Table, could you construct a query to find which Mobs are in which Areas
+NB: Spells Table: Formatted the Spell Table to be more in line with how the Players Hook formats the data
+NB: Spells Table: Level is different based on Class. Perhaps a ClassSpell mapping?
+NB: Im not modelling the factional titles that can be gained, nor the titles gained automatically from levelling up.
+NB: materialCost added, so that material components with gold costs can be modelled, without having a redundant entry.
+
+Don’t read!: https://www.isoc.org/inet97/proceedings/A6/A6_2B.JPG
+
+Container (id, name, capacity, description, copper, stored*, weight)
+
+NB: weight is the weight of the container. there is no total weight since this is derived data. the total weight is calculated from the weights of the stored items + the weight of the container.
+
+References:
+http://msdn.microsoft.com/en-us/library/ms187099%28v=sql.105%29.aspx
+https://www.simple-talk.com/sql/database-administration/ten-common-database-design-mistakes/
+Various youtube videos.
+https://www.simple-talk.com/blogs/2008/07/21/the-myth-of-over-normalization/
+
+Items (name, type, desc, copper, weight, glowing, humming, powerful, nodrop, nodisarm, noremove, damage, handedness, slashing, piercing, crushing, size, magical??, url, craftsmanship, history, good, neutral, evil, material, class, limited, radiance, rotDeath, raceOnly, shimmering, aggro, acBonus, shieldBonus, armourCheckPenalty, spellCastingFailureChance, speed, armourEnhancement, armourType, size, don, don hastily, remove)
+
+NB: Handedness refers to whether it is 1H, 2H or Hybrid (such as a Bastard Sword or a Katana)
+NB: Damage does not model dual weapons
+NB: A gear is only glowing and/or humming if it is magical
+NB: Powerful refers to whether it can be stored in containers or not
+NB: Item level is derived from copper, so is not stored
+NB: Good, neutral, and evil, take either a yes or no
+NB: Class for a weapon refers to whether its an axe, sword, etc
+NB: Limited refers to rareness in the world
+NB: Average damage is not shown as that is derived from the damage
+NB: Radiance refers to whether it radiates a blessed aura (seen by Detect Good), or a profane aura (seen by Detect Evil)
+NB: rotDeath refers to whether the corpse rots upon death
+NB: raceOnly refers to if there is a race limitation. It does not model if the item can be used by only a few races rather than just one
+NB: aggro refers to whether the weapon will (try to) compel the wielder to attack a nearby foe
+NB: The items need to be scanned for mutually-exclusive attributes
+NB: armourType refers to if it is light, medium, or heavy armour
+NB: Donning armour rules could be derived from the armourType, but by D&D3.5E rules, its based on the armour, so I have modelled it as such. They are measured in time.
+NB: Not quite sure what shimmering does…
+
+Character (name, ipAddress, port, room, url, description, clothing!,gear!, alignment, class, health, ac, fort, ref, will, faction*)
+
+NB: Added clothing such that the gear and clothing is separate. It also means clothing must be forced separate from the description.
+
+1NF:
+
+Weapons (name, desc, copper, weight, glowing, humming, powerful, nodrop, nodisarm, noremove, damage, handedness, slashing, piercing, crushing, size, magical??, url, craftsmanship, history, good, neutral, evil, material, class, limited, radiance, rotDeath, raceOnly, shimmering, aggro, cultureLevel)
+
+Armour (name, desc, copper, weight, glowing, humming, powerful, acBonus, shieldBonus, armourCheckPenalty, spellCastingFailureChance, speed, armourEnhancement@, armourType, size, don, don hastily, remove, cultureLevel)
+
+Equipment (name, type, desc, copper, weight, mechanics, cultureLevel)
+
+@ indicates potentially not an atomic value
+
+NB: cultureLevel added. This would be a number range, such as 0-9, representing if the item is from perhaps a Renaissance culture, a medieval culture, etc...

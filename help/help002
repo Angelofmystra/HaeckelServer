@@ -1,0 +1,47 @@
+'GAME DESIGN PATTERNS' 'BEST PRACTICE'
+
+What is a Game Design Pattern?
+
+* “Game design patterns are semiformal interdependent descriptions of commonly reoccurring parts of the design of a game that concern gameplay” (p. 34 of Game Design Patterns)
+
+* Loosely described, they are rules (not laws, but stricter than guidelines) that can be broken, do have contradictions, and strategic trade-offs in design, but overall improve the quality of the game and make it more fun.
+
+* Most importantly, they are intended to be useful, and to help one think objectively on topics.
+
+On Good Design
+
+"People call things good when they like them. “Good“ is often thought to be a personal and subjective value judgment. What one person calls a “good game” might not appeal to another. however, many critics of games, films, books, or architecture feel that certain products are objectively better than others. They think their evaluations are more than just matters of personal taste (and if they don’t, they should reconsider their choice of profession). in all fields of art and design, games included, we work with assumption that at least some aspects of a game can be evaluated objectively. Our opinions might not be universally accepted, but they’re more than a simple matter of personal taste. Learning about design patterns for games will help you understand the characteristics that good games possess." - Game Mechanics, Advanced Game Design - E. Adams, J. Dormans (New Riders, 2012)
+
+Design Patterns vs Design Vocabularies
+
+"The notions of design patterns and design vocabularies are sometimes used interchangeably. The approaches are similar but not identical. design patterns and design vocabularies try to both capture and objectify essential characteristics of games, but design patterns are intended to help people create good games (or program code or buildings), while design vocabularies try to remain more neutral and less prescriptive (especially when they are used in an academic context)." - Game Mechanics, Advanced Game Design - E. Adams, J. Dormans (New Riders, 2012)
+
+Any effort to identify design patterns in games should begin with a clear theoretical vision on what makes a game objectively good—where its intrinsic quality comes from. Based on that vision, it should identify common problems and offer generic solutions to those problems, just as Alexander did for architecture. In that way, design patterns really become a useful tool for game design, not just game analysis.
+
+A look on the Static Engine and Dynamic Engine pattern with respect to D&D
+
+Static Engine: 
+
+* "A static engine produces a steady flow of resources over time for players to consume or to collect while playing the game."
+
+* Use a static engine when you want to limit players’ actions without complicating the design. A static engine forces players to think how they are going to spend their resources without much need for long-term planning.
+
+Dynamic Engine: 
+
+* "A source produces an adjustable flow of resources. Players can invest resources to improve the flow."
+
+* Use a dynamic engine when you want to introduce a trade-off between long-term investment and short-term gains. This pattern gives the player more control over the production rate than a static engine does.
+
+In the D&D Context:
+
+* The wealth by level system is a static engine system. The experience system is fairly static, but also dynamic in a certain sense (in that it responds to player behavior/performance and capability). 
+
+* It is vastly easier to design and build challenges for a static engine. It allows the GM to use pre-existing material much more easily as it has been tuned over years to be fairly balanced against the players capabilities. This allows the designer to promote a good game experience.
+
+* The disadvantage of the Static Engine is that it creates a sense of destiny. Fundamentally the players might think they have no control (or vastly reduced control) over their own success so long as they dont TPK.
+
+* Therefore, you must consider the trade off between GM Planning Advantage and Player Motivations.
+
+For further information, see 'DESIGN VOCABULARY' , 'ANTI PATTERNS' and 'REWARDS WITHOUT POWER INCREASE'
+
+For places of reading, check Game Design Patterns (2005), Staffan Bjork and Jussi Holopainen describe hundreds of patterns, and you can find many more patterns on the accompanying website.
