@@ -78,11 +78,6 @@ def parse(rawData):
 			response = cmds.get.get(token[1])
 		else:
 			response = NO_ARGUMENTS_FOUND
-	elif command == "grep":
-		if lens(tokens >= 2):
-			response = cmds.grep.grep(args)
-		else:
-			response = NO_ARGUMENTS_FOUND
 	elif command == "help":
 		if len(tokens >= 2):
 			response = cmds.help.help(tokens[1])
