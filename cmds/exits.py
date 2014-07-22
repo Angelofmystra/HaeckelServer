@@ -1,0 +1,2 @@
+def exits():
+	return "blah"

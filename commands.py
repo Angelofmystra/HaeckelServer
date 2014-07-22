@@ -119,7 +119,7 @@ def parse(rawData):
 		else:
 			response = cmds.inventory.get_all()
 	elif command == "ladder":
-		response = cmds.ladder.ladder()
+		response = cmds.ladder.get_ladder()
 	elif command == "lastseen":
 		if len(tokens) >= 2:
 			response = cmds.lastseen.lastseen(tokens[1])
@@ -129,17 +129,17 @@ def parse(rawData):
 		if len(tokens) >= 2:
 			response = cmds.limited.limited_by_type(tokens[1])
 		else:
-			response = cmds.limited.limited()
+			response = cmds.limited.get_all_limited()
 	elif command == "look":
 		if len(tokens) >= 2:
-			response = cmds.look.observe(tokens[1])
+			response = cmds.look.look_at_object(tokens[1])
 		else:
-			response = cmds.look.look()
+			response = cmds.look.look_in_room()
 	elif command == "marching":
 		if (len(tokens) >= 2):
-			response = cmds.marching_order.set(token[1])
+			response = cmds.marching_order.set_marching_order(token[1])
 		else:
-			response = cmds.marching_order.get()
+			response = cmds.marching_order.get_marching_order()
 	elif command == "browse":
 		response = cmds.mercantile_browse.browse()
 	elif command == "buy":

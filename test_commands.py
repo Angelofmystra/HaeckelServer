@@ -148,7 +148,7 @@ class TestCommandsFunctions(unittest.TestCase):
         self.assertEqual(commands.parse("help dir"), "Example output needed")
 
     def test_help_search(self):
-        self.assertEqual(commands.parse("help test"))
+        self.assertEqual(commands.parse("help test"), "Example output needed")
 
     def test_help_parameter_is_a_number(self):
         self.assertEqual(commands.parse("help 000"), "Example output needed")
@@ -192,7 +192,7 @@ class TestCommandsFunctions(unittest.TestCase):
 
     ### MARCHING ###
     def test_marching(self):
-        self.assertEqual(commands.parse("marching front"))
+        self.assertEqual(commands.parse("marching front"), "Example output needed")
 
 if __name__ == '__main__':
     unittest.main()
