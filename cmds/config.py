@@ -1,2 +1,2 @@
-def config():
+def config(arg):
     return "Blah"
