@@ -79,9 +79,10 @@ def parse(rawData):
 		else:
 			response = cmds.desc.view()
 	elif command == "dice":
-		dice_string = args[0]
-		args.pop(0)
-		response = args+" "+cmds.dice.dice(dice_string)
+		if (len(tokens) >= 2):
+			response = cmds.dice.dice(args)
+		else:
+			response = NO_ARGUMENTS_FOUND
 	elif command == "drop":
 		if (len(tokens) >= 2):
 			response = cmds.drop.drop_item(token[1])
