@@ -191,7 +191,8 @@ class TestCommandsFunctions(unittest.TestCase):
         self.assertEqual(commands.parse("look sword"), "Example output needed")
 
     ### MARCHING ###
-
+    def test_marching(self):
+        self.assertEqual(commands.parse("marching front"))
 
 if __name__ == '__main__':
     unittest.main()
