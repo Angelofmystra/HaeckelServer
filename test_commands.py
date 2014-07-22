@@ -194,5 +194,38 @@ class TestCommandsFunctions(unittest.TestCase):
     def test_marching(self):
         self.assertEqual(commands.parse("marching front"), "Example output needed")
 
+    def test_marching_get_party_marching_order(self):
+        self.assertEqual(commands.parse("marching"), "Example output needed")
+
+    ### BROWSE ###
+
+    def test_browse(self):
+        self.assertEqual(commands.parse("browse"), "Example output needed")
+
+    ### BUY ###
+
+    def test_buy(self):
+        self.assertEqual(commands.parse("buy sword"), "Example output needed")
+
+    def test_buy_item_doesnt_exist(self):
+        self.assertEqual(commands.parse("buy sword"), "Item does not exist")
+
+    def test_buy_merchant_doesnt_exist(self):
+        self.assertEqual(commands.parse("buy sword"), "Merchant doesnt exist")
+
+    def test_buy_check_wealth_deducted(self):
+        self.assertEqual(commands.parse("buy sword"), "Wealth deducted")
+
+    ### SELL ###
+
+    def test_sell(self):
+        self.assertEqual(commands.parse("sell sword"), "Example output needed")
+
+    def test_sell_check_wealth_added(self):
+        self.assertEqual(commands.parse("sell sword"), "Wealth deducted")
+
+    ### NORTH ###
+    
+
 if __name__ == '__main__':
     unittest.main()

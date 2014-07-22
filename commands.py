@@ -141,7 +141,7 @@ def parse(rawData):
 		else:
 			response = cmds.marching_order.get_marching_order()
 	elif command == "browse":
-		response = cmds.mercantile_browse.browse()
+		response = cmds.mercantile_browse.browse_items_in_store()
 	elif command == "buy":
 		if (len(tokens) >= 2):
 			response = cmds.mercantile_buy.mercantile_buy(token[1])
