@@ -5,7 +5,6 @@ import tornado.web
 from commands import parse
 
 clients = {}
-client_data = []
 
 class WSHandler(tornado.websocket.WebSocketHandler):
     def open(self):
