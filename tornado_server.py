@@ -3,10 +3,7 @@ import tornado.websocket
 import tornado.ioloop
 import tornado.web
 from commands import parse
-    
-UNKNOWN = 1
-GAVE_USERNAME = 2
-LOGGED_IN = 3
+
 clients = {}
 client_data = []
 
@@ -18,7 +15,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
         d = {}
         d["state"] = "unknown"
         clients[str(self)] = d
-  
+
     def on_message(self, message):
         print 'message received %s' % message
         print "self: "+str(self)
@@ -51,8 +48,8 @@ class WSHandler(tornado.websocket.WebSocketHandler):
 
     def on_close(self):
         print "[+] Connection has closed."
- 
- 
+
+
 application = tornado.web.Application([
     (r'/ws', WSHandler),
 ])
