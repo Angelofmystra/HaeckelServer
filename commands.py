@@ -25,10 +25,14 @@ import cmds.marching_order
 import cmds.mercantile_browse
 import cmds.mercantile_buy
 import cmds.mercantile_sell
+import cmds.name
 import cmds.north
 import cmds.password
 import cmds.prompt
 import cmds.quit
+
+import admin.cmds.character_creation
+
 
 #from create import create_character
 # Reads the raw data, pattern matches against it to determine how to act, and then replies with the appropriate response. The first word is ALWAYS the command.
@@ -155,6 +159,11 @@ def parse(rawData):
 			response = NO_ARGUMENTS_FOUND
 	elif command == "north":
 		response = cmds.north.north()
+	elif command == "name":
+		if (len(tokens) >= 2):
+			response = cmds.name.set_name(token[1])
+		else:
+			response = NO_ARGUMENTS_FOUND
 	elif command == "password":
 		if (len(tokens) >= 2):
 			response = cmds.password.set_password_with(token[1])
@@ -235,8 +244,8 @@ def parse(rawData):
 			response = cmds.yell.yell(args)
 		else:
 			response = "Yell what?"
-	#elif command == "name":
-	#	return create_character(tokens)
+	elif command == "@make_character":
+		response = admin.cmds.character_creation.make_character(tokens)
 	return response
 
 def archive(rawData):
